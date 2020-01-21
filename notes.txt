@@ -1,0 +1,30 @@
+functions needed
+
+Use print() a lot to display messages about what is going on, what the script has found out,
+what items it needs, what it is doing.
+always use free delivery
+
+use pictures to determine coordinates of items, then store coordinates for use making program more robust
+
+need coordinates of everything
+findOrder() - finds what orders are needed and compare to what order has already been taken so
+a single order doesn't get counted twice. Or take all current orders, make them all, then take orders again, 
+cleanPlate() - clicks on flashing plates that are different colors
+inventory() compares order to what is in inventory
+orderItem(item argument)
+	clicks phone, exits phone call, can click all items
+mat rolling takes 1.5 seconds to complete
+store goes from open to close in 3 minutes
+
+locateOnScreen() function is very slow.
+
+
+can't afford ingredient?
+	Can make a wallet variable that updates the amount of money I have
+takes a few seconds to order an ingredient, don't reorder (6 seconds)
+
+if there's excess dishes on the conveyor belt, can't place new item
+
+findOrders() called too often
+^ same issue of making too many orders, duplicates. if they leave the order is left on conveyer belt
+
